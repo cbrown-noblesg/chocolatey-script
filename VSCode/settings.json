@@ -1,30 +1,173 @@
 {
-    "workbench.colorTheme": "2077",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "git.autofetch": true,
-    "git.enableSmartCommit": true,
-    "explorer.confirmDragAndDrop": false,
+    "breadcrumbs.enabled": true,
+    // "editor.cursorStyle": "line-thin",
+    "editor.cursorBlinking": "phase",
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "team.showWelcomeMessage": false,
+    "window.title": "${rootName}${separator}${activeEditorShort}",
+    "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "powershell.codeFormatting.newLineAfterOpenBrace": false,
+    "powershell.codeFormatting.newLineAfterCloseBrace": false,
+    "files.insertFinalNewline": true,
+    "workbench.settings.editor": "json",
+    "editor.hover.delay": 1000,
+    "typescript.preferences.quoteStyle": "single",
+    "peacock.affectActivityBar": true,
+    "peacock.affectTitleBar": true,
+    "peacock.affectStatusBar": true,
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#b52e31"
+        },
+        {
+            "name": "Auth0 Orange",
+            "value": "#eb5424"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "C# Purple",
+            "value": "#68217A"
+        },
+        {
+            "name": "Gatsby Purple",
+            "value": "#639"
+        },
+        {
+            "name": "Go Cyan",
+            "value": "#5dc9e2"
+        },
+        {
+            "name": "Java Blue-Gray",
+            "value": "#557c9b"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#00b3e6"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        }
+    ],
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+    "html.format.wrapAttributes": "force-aligned",
+    "html.autoClosingTags": true,
+    "sync.gist": "91c1d6d9c887cd8f65966efb2a25437c",
+    "editor.minimap.enabled": false,
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "window.zoomLevel": 1,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "gitlens.views.compare.files.layout": "tree",
+    "liveshare.featureSet": "insiders",
+    // "prettier.jsxSingleQuote": true,
+    // "prettier.singleQuote": true,
+    // "prettier.tabWidth": 4,
+    "sync.autoUpload": true,
+    "sync.forceUpload": true,
+    // "[typescript]": {
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    // "prettier.trailingComma": "none",
+    "files.trimTrailingWhitespace": true,
+    // "[jsonc]": {
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.renameOnType": true,
+    "mssql.connections": [
+        {
+            "server": ".",
+            "database": "",
+            "authenticationType": "Integrated",
+            "profileName": "localhost",
+            "password": ""
+        },
+        {
+            "server": "nsg-test-sql01.database.windows.net",
+            "database": "",
+            "authenticationType": "SqlLogin",
+            "user": "nsgtestadmin",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "nsg-test-sql01.database.windows.net"
+        }
+    ],
+    "vs-kubernetes": {
+        "vs-kubernetes.draft-path.windows": "C:\\Users\\cbrow\\.vs-kubernetes\\tools\\draft\\windows-amd64\\draft.exe",
+        "vs-kubernetes.helm-path.windows": "C:\\Users\\cbrow\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vs-kubernetes.minikube-path.windows": "C:\\Users\\cbrow\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+        "vscode-kubernetes.minikube-path.windows": "c:\\temp\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
     },
-    "prettier.singleQuote": true,
+    "editor.formatOnSaveMode": "file",
+    // "[scss]": {
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    "angular.experimental-ivy": true,
+    "liveshare.authenticationProvider": "GitHub",
+    "remote.SSH.remotePlatform": {
+        "192.168.86.15": "linux"
+    },
+    "vscode-edge-devtools.mirrorEdits": true,
+    "go.toolsManagement.autoUpdate": true,
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "redhat.telemetry.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "npm.keybindingsChangedWarningShown": true,
     "editor.formatOnSave": true,
-    "diffEditor.codeLens": true,
-    "prettier.jsxSingleQuote": true,
-    "rust-client.disableRustup": true,
-    "editor.formatOnPaste": true
+    "editor.formatOnPaste": true,
+    "editor.wordWrapColumn": 400,
+    "editor.wordWrap": "wordWrapColumn",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.accessibilitySupport": "off",
+    "git.openRepositoryInParentFolders": "always",
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "terminal.integrated.persistentSessionScrollback": 1000,
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.shellIntegration.history": 1000,
+    "editor.inlineSuggest.enabled": true,
+    "prettier.tabWidth": 4,
+    "window.zoomLevel": 2
 }

@@ -1,4 +1,4 @@
-@ECHO OFF 
+@ECHO OFF
 ECHO ============================
 ECHO Chocolatey Updater
 ECHO ============================
@@ -42,24 +42,56 @@ choco upgrade azure-functions-core-tools -y
 choco upgrade azurepowershell -y
 choco upgrade azure-data-studio -y
 choco upgrade docker-desktop -y
-choco upgrade filezilla -y
 choco upgrade 7zip -y
 choco upgrade notepadplusplus -y
-choco upgrade audacity -y
-:: Meetings
-choco upgrade skype -y
+choco upgrade termius -y
+choco upgrade linqpad -y
+choco upgrade postman -y
+choco upgrade gitkraken -y
+choco upgrade tortoisegit -y
+choco upgrade winmerge -y
+choco upgrade wireguard -y
+
+choco upgrade sql-server-2022 -y
+@REM will need to install ssrs manually: https://www.microsoft.com/en-us/download/details.aspx?id=104502
+choco upgrade sql-server-management-studio -y
+choco upgrade visualstudio2019enterprise -y
+choco upgrade visualstudio2019-workload-azure -y
+choco upgrade visualstudio2019-workload-node -y
+choco upgrade visualstudio2019-workload-manageddesktop -y
+choco upgrade visualstudio2019-workload-data -y
+choco upgrade visualstudio2019-workload-netweb -y
+choco upgrade visualstudio2022enterprise -y
+choco upgrade visualstudio2022buildtools -y
+choco upgrade visualstudio2022-remotetools -y
+choco upgrade visualstudio2022-workload-node -y
+choco upgrade visualstudio2022-workload-azure -y
+choco upgrade visualstudio2022-workload-azurebuildtools -y
+choco upgrade visualstudio2022-workload-manageddesktop -y
+choco upgrade visualstudio2022-workload-data -y
+choco upgrade visualstudio2022-workload-netweb -y
 choco upgrade microsoft-teams -y
-choco upgrade webex-meetings -y
+choco upgrade 1password -y
+:: Meetings
+@REM choco upgrade skype -y
+choco upgrade microsoft-teams -y
+@REM choco upgrade webex-meetings -y
 choco upgrade zoom -y
 :: Video
-choco upgrade obs-studio -y
-choco upgrade vlc -y
+@REM choco upgrade obs-studio -y
+@REM choco upgrade vlc -y
 :: Utilities
-choco upgrade rufus -y
-choco upgrade ccleaner -y
-choco upgrade cpu-z -y
-choco upgrade steam -y
-choco upgrade grammarly -y
-choco upgrade choco-cleaner -y
+@REM choco upgrade rufus -y
+@REM choco upgrade ccleaner -y
+@REM choco upgrade cpu-z -y
+@REM choco upgrade steam -y
+@REM choco upgrade grammarly -y
+@REM choco upgrade choco-cleaner -y
 :: Chocolatey
 choco upgrade chocolatey -y
+
+winget install SlackTechnologies.Slack -h --accept-package-agreements --uninstall-previous --disable-interactivity
+
+
+@REM will need to install ssrs manually: https://www.microsoft.com/en-us/download/details.aspx?id=104502
+@REM will need to install wsl manually: https://learn.microsoft.com/en-us/windows/wsl/install
